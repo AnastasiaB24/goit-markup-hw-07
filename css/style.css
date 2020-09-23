@@ -42,13 +42,13 @@ img {
 }
 
 /* my conteiner */
-.conteiner {
+/* .conteiner {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 /* header */
 
@@ -139,7 +139,7 @@ img {
 
 /* addres */
 
-.addres .link-addres {
+/* .addres .link-addres {
   color: var(--title-text-color);
   display: flex;
 
@@ -156,7 +156,7 @@ img {
 .link-addres {
   display: flex;
   align-items: center;
-}
+} */
 .icon-mail {
   width: 16px;
   height: 12px;
@@ -174,7 +174,7 @@ img {
   fill: currentColor;
 }
 
-.link-addres:hover,
+/* .link-addres:hover,
 .link-addres:focus {
   color: var(--accent-color);
 }
@@ -188,7 +188,7 @@ img {
 
 .addres {
   margin-left: auto;
-}
+} */
 
 /* auth nav */
 
@@ -379,14 +379,14 @@ img {
   fill: var(--white-text-color);
 }
 
-.section-comand {
+/* .section-comand {
   font-size: 36px;
   line-height: 1.17;
 
   letter-spacing: 0.03em;
   margin-top: 0px;
   margin-bottom: 50px;
-}
+} */
 .title {
   font-style: normal;
   font-weight: 700;
@@ -772,11 +772,11 @@ color: var(--title-text-color);
 }
 
 /* Команда */
-.section-comand {
+/* .section-comand {
   background-color: var(--comand-color);
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 .icon-client:not(:last-child) {
   margin-right: 30px;
 }
