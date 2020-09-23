@@ -1,5 +1,5 @@
 .addres .link-addres {
-    color: var(--title-text-color);
+    color: $title-text-color;
     display: flex;
   
     text-decoration: none;
@@ -19,14 +19,14 @@
 
   .link-addres:hover,
   .link-addres:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .link-addres:hover .hover {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .link-addres:hover .icon-phone {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .addres {

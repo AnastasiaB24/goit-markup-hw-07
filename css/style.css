@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
@@ -11,7 +11,7 @@
   --color-icon: #afb1b8;
   --hover-partfolio: rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 ul {
   list-style: none;
@@ -28,7 +28,7 @@ ul {
 /* вторичный цвет фона2 #F5F4FA */
 
 body {
-  background-color: var(--white-text-color);
+  background-color: $white-text-color;
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
@@ -69,7 +69,7 @@ img {
 }
 
 .logoblue {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 /* site-nav */
@@ -88,7 +88,7 @@ img {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border-radius: 2px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -127,11 +127,11 @@ img {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .link-current {
-  color: var(--accent-color);
+  color: $accent-color;
 
   text-decoration: none;
   display: inline-block;
@@ -140,7 +140,7 @@ img {
 /* addres */
 
 /* .addres .link-addres {
-  color: var(--title-text-color);
+  color: $title-text-color;
   display: flex;
 
   text-decoration: none;
@@ -176,14 +176,14 @@ img {
 
 /* .link-addres:hover,
 .link-addres:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .link-addres:hover .hover {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .link-addres:hover .icon-phone {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .addres {
@@ -234,7 +234,7 @@ img {
   align-items: center;
   justify-content: center;
 
-  background-color: var(--background-item);
+  background-color: $background-item;
   width: 100%;
   height: 120px;
   margin-bottom: 30px;
@@ -297,7 +297,7 @@ img {
   padding-top: 27px;
   padding-bottom: 27px;
 
-  color: var(--white-text-color);
+  color: $white-text-color;
   background-color: rgba(47, 48, 58, 0.8);
   font-weight: 700;
   font-size: 14px;
@@ -330,7 +330,7 @@ img {
 .working {
   text-align: center;
   padding-bottom: 30px;
-  background-color: var(--white-text-color);
+  background-color: $white-text-color;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -371,12 +371,12 @@ img {
 
 .icon-set:hover,
 .icon-set:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .icon-set:hover .link-svg,
 .icon-set:focus .link-svg {
-  fill: var(--white-text-color);
+  fill: $white-text-color;
 }
 
 /* .section-comand {
@@ -410,7 +410,7 @@ img {
 }
 
 .text {
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-family: Roboto;
   font-size: 14px;
   line-height: 1.71;
@@ -430,7 +430,7 @@ img {
   letter-spacing: 0.03em;
 }
 .text-work {
-  color: var(--title-text-color);
+  color: $title-text-color;
   margin-top: 0px;
   margin-top: 0;
   margin-bottom: 16px;
@@ -462,7 +462,7 @@ img {
   margin-top: 0;
   margin-bottom: 30px;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
 
   font-size: 16px;
   line-height: 1.9;
@@ -481,8 +481,8 @@ img {
   border-radius: 4px;
   padding: 10px 32px;
 
-  background-color: var(--accent-color);
-  color: var(--white-text-color);
+  background-color: $accent-color;
+  color: $white-text-color;
 
   font-family: inherit;
   font-weight: 700;
@@ -491,7 +491,7 @@ img {
 }
 
 .alfa {
-  color: var(--alfa-color);
+  color: $alfa-color;
   text-decoration: none;
 }
 
@@ -502,7 +502,7 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 
-  background-color: var(--hero-color);
+  background-color: $hero-color;
 
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -521,7 +521,7 @@ img {
   margin-top: 0;
   margin-bottom: 30;
 
-  color: var(--white-text-color);
+  color: $white-text-color;
 
   font-weight: 900;
   font-size: 44px;
@@ -555,7 +555,7 @@ img {
   top: 50%;
   
 
-  background: var(--white-text-color);
+  background: $white-text-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -571,7 +571,7 @@ img {
     justify-content: center;
   top: 8px;
   right: 8px;
-  background: var(--white-text-color);
+  background: $white-text-color;
   border: 1px solid var(--primary-text-color);
   border-radius: 50%;
 }
@@ -641,7 +641,7 @@ line-height: 1.17;
 margin-bottom: 4px;
 letter-spacing: 0.01em;
 
-color: var(--title-text-color);
+color: $title-text-color;
 }
 
 
@@ -654,17 +654,17 @@ color: var(--title-text-color);
 }
 
 .form-input:focus{
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 
 }
 
 .form-input:focus ~ .icon-name-form {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .form-input:focus,
 .form-comment:focus{
-  border-color:var(--accent-color);
+  border-color:$accent-color;
 }
 
 .form-comment{
@@ -695,7 +695,7 @@ color: var(--title-text-color);
 
 .close-button:focus svg,
 .close-button:hover svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .form-button{
   width: 200px;
@@ -709,8 +709,8 @@ color: var(--title-text-color);
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--white-text-color);
-  background: var(--accent-color);
+  color: $white-text-color;
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -759,8 +759,8 @@ color: var(--title-text-color);
 }
 
 .checkbox:checked + .checkbox-icon {
-  border-color: var(--accent-color);
-  background-color: var(--accent-color);
+  border-color: $accent-color;
+  background-color: $accent-color;
   background-image: url(../img/icon-check.svg);
   background-origin: border-box;
   
@@ -773,7 +773,7 @@ color: var(--title-text-color);
 
 /* Команда */
 /* .section-comand {
-  background-color: var(--comand-color);
+  background-color: $comand-color;
   padding-top: 94px;
   padding-bottom: 94px;
 } */
@@ -782,7 +782,7 @@ color: var(--title-text-color);
 }
 
 .icon-hover-link {
-  background-color: var(--white-text-color);
+  background-color: $white-text-color;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -795,7 +795,7 @@ color: var(--title-text-color);
 }
 .icon-hover-link:hover,
 .icon-hover-link:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 .features-tex {
   margin-left: 24px;
@@ -806,7 +806,7 @@ color: var(--title-text-color);
 }
 
 .icon-hover-link:hover .clients-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 /* кнопки */
@@ -824,8 +824,8 @@ color: var(--title-text-color);
 
 .btn:hover,
 .btn:focus {
-  background-color: var(--accent-color);
-  color: var(--white-text-color);
+  background-color: $accent-color;
+  color: $white-text-color;
 }
 .conteiner-box {
   padding-bottom: 94px;
@@ -841,7 +841,7 @@ color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.63;
 
-  background-color: var(--button-partfolio-colot);
+  background-color: $button-partfolio-colot;
   color: var(--primary-text-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -856,7 +856,7 @@ color: var(--title-text-color);
 /* footer */
 
 .background-footer {
-  background-color: var(--hero-color);
+  background-color: $hero-color;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -874,12 +874,12 @@ color: var(--title-text-color);
   margin-bottom: 20px;
   display: block;
 
-  color: var(--white-text-color);
+  color: $white-text-color;
 
   font-style: normal;
 }
 .logowhait {
-  color: var(--white-text-color);
+  color: $white-text-color;
 }
 .norm {
   display: inline-block;
@@ -910,7 +910,7 @@ color: var(--title-text-color);
 }
 
 .footer-link-svg {
-  fill: var(--white-text-color);
+  fill: $white-text-color;
 }
 .icon-svg-list:not(:last-child) {
   margin-right: 10px;
@@ -919,7 +919,7 @@ color: var(--title-text-color);
 .form-checkbox a {
   margin-left: 3px;
   text-decoration-line:underline;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .title-icon {
@@ -931,7 +931,7 @@ color: var(--title-text-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--white-text-color);
+  color: $white-text-color;
 
   margin-top: 0;
   margin-bottom: 20px;
@@ -951,7 +951,7 @@ color: var(--title-text-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  background-color: var(--hero-color);
+  background-color: $hero-color;
   
 }
 
@@ -961,7 +961,7 @@ color: var(--title-text-color);
 .footer-mail-text{
   display: block;
   margin-bottom: 20px;
-  color: var(--white-text-color);
+  color: $white-text-color;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -972,7 +972,7 @@ color: var(--title-text-color);
   height: 24px;
   margin-left: 10px;
 
-  fill: var(--white-text-color);
+  fill: $white-text-color;
 }
 
 .button-form{
@@ -986,7 +986,7 @@ color: var(--title-text-color);
   height: 50px;
 
   background: #188CE8;
-  color: var(--white-text-color);
+  color: $white-text-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -1019,7 +1019,7 @@ color: var(--title-text-color);
   left: 0;
   width: 100%;
   height: 100%;
-  color: var(--white-text-color);
+  color: $white-text-color;
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   opacity: 0;
@@ -1032,7 +1032,7 @@ color: var(--title-text-color);
   padding-bottom: 63px;
   padding-left: 24px;
 
-  color: var(--white-text-color);
+  color: $white-text-color;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
