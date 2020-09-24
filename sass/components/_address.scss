@@ -13,21 +13,21 @@
   }
   
   .link-addres {
-    display: flex;
+    display: flex;  
     align-items: center;
-  }
-
-  .link-addres:hover,
-  .link-addres:focus {
+  
+  &:hover,
+  &:focus {
   color: $accent-color;
 }
 
-.link-addres:hover .hover {
+  &:hover .hover {
   fill: $accent-color;
 }
-.link-addres:hover .icon-phone {
+  &:hover .icon-phone {
   fill: $accent-color;
 }
+  }
 
 .addres {
   margin-left: auto;

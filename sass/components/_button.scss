@@ -1,0 +1,19 @@
+.button-pad {
+    padding-top: 94px;
+    padding-bottom: 50px;
+  
+    border: none;
+  }
+  .button-text {
+    align-items: center;
+    border-radius: 4px;
+    padding: 10px 32px;
+  
+    background-color: $accent-color;
+    color: $white-text-color;
+  
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+  }
