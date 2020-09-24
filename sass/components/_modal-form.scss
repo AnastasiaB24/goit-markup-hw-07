@@ -93,7 +93,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     height: 36px;
-    transition: border-color var(--color-icon);
+    transition: border-color $color-icon;
     outline: none;
     width: 402px;
     
@@ -146,7 +146,7 @@
     border-radius: 4px;
     resize: none;
     outline: none;
-    transition: border-color var(--transition);
+    transition: border-color $transition;
   }
   
   .close-button-hover {

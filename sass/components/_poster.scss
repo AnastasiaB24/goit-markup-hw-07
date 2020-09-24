@@ -1,7 +1,7 @@
 .poster-name {
     margin-top: 0px;
     margin-bottom: 0px;
-    color: $primary-text-color;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
@@ -14,17 +14,23 @@
   }
 
   .poster {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: $primary-text-color;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.poster-name {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: $title-text-color;
+
+  font-size: 16px;
+  line-height: 1.9;
   
-    color: $primary-text-color;
-  
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-  }
-  .poster-name {
-    
-    margin-bottom: 30px;
-  }
+}
