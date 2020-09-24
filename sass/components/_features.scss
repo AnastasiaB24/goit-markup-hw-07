@@ -36,3 +36,40 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
+  .features-tex {
+    margin-left: 24px;
+  }
+  .icon-client:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .icon-hover-link {
+    background-color: $white-text-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid $color-icon;
+    border-radius: 4px;
+    margin-bottom: 94px;
+  
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .icon-hover-link:hover,
+  .icon-hover-link:focus {
+    border: 1px solid $accent-color;
+  }
+  .clients-icon {
+    fill: $color-icon;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .icon-hover-link:hover .clients-icon {
+    fill: $accent-color;
+  }
+
+  .features-tex {
+    margin-left: 24px;
+  }
+ 
