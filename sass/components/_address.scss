@@ -9,7 +9,7 @@
     letter-spacing: 0.02em;
     font-style: normal;
   
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $transition-argument;
   }
   
   .link-addres {

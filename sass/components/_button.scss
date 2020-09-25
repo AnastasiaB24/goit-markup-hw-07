@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
   
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $transition-argument;
   }
   
   .button .item-btn {
@@ -50,5 +50,5 @@
   
     background-color: $button-partfolio-colot;
     color: $primary-text-color;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $transition-argument;
   }
